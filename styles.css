@@ -54,6 +54,7 @@ GENERAL
 -------------------*/
 html{
     background-color: #FFFFFF;
+    margin: 0 auto;
 }
 
 body{
@@ -62,7 +63,6 @@ body{
     background-color: #000000;
     align-content: center;
 }
-
 
 h1, h2, h3{
     text-transform: uppercase;
@@ -87,7 +87,7 @@ h2{
 }
 
 h3{
-    font-size: 1.5em;
+    font-size: 1em;
     text-align: center;
 }
 p{
@@ -102,8 +102,10 @@ p{
 NAVIGATION
 -------------------*/
 nav{
-    width: 485px;
+    width: 300px;
     color: #FFFFFF;
+    align-content: center;
+    margin: 0 auto;
 }
 
 ul{
@@ -130,17 +132,103 @@ li a{
 /*-------------------
 CONTENT
 -------------------*/
-#gallery{
-    background-color: #FFFFFF;
-    margin: 10px;
-}
-
 #about{
     background-color: #FFFFFF;
-    margin: 10px;;
+    margin: 0 14px;
+}
+
+#gallery{
+    background-color: #FFFFFF;
+    margin: 0 14px;
+}
+
+#gallery section{
+    position: relative;
+}
+
+.top-text{
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bottom-text{
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 section h1, section h2, section h3, section p{
     color: #000000;
     padding: 10px;
 }
+
+.white-text h3{
+    color: #FFFFFF;
+}
+
+img{
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
+/*-------------------
+FORM
+-------------------*/
+#contact h2, #contact p{
+    color: #ffffff;
+    text-align: center;
+}
+
+form{
+    display: grid;
+    color:#FFFFFF;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+form p{
+    display: none;
+}
+
+label{
+    display: block;
+    margin: 10px 0;
+    font-size: 1em;
+}
+
+
+input{
+    width: 400px;
+    padding: 10px;
+}
+
+::placeholder{
+    color:#007D7B;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+/*-------------------
+BUTTON
+-------------------*/
+input[type="submit"]{
+    background-color: #007D7B;
+    color: #FFFFFF;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 25px;
+    width: 50%;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
