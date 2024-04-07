@@ -48,10 +48,10 @@ table {
 	border-spacing: 0;
 }
 
+
 /*-------------------
 GENERAL
 -------------------*/
-
 html{
     background-color: #FFFFFF;
 }
@@ -59,8 +59,9 @@ html{
 body{
     width:485px;
     font-family: Arial, Helvetica, sans-serif;
-    margin:20px;
+    margin: 10px 10px 10px 10px;
     background-color: #000000;
+    align-content: center;
 }
 
 h1{
@@ -73,10 +74,29 @@ h1{
     background-color: #FFFFFF;
 }
 
+h2{
+    color: #ffffff;
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+
+h3{
+    color: #ffffff;
+    font-size: 1.5em;
+    text-align: center;
+}
+p{
+    color: #ffffff;
+    font-size: 1.25em;
+    margin: auto;
+    padding:10px;
+}
+
+
 /*-------------------
 NAVIGATION
 -------------------*/
-
 nav{
     width: 485px;
     color: #FFFFFF;
@@ -100,6 +120,22 @@ li:hover{
 li a{
     color:#FFFFFF;
     text-decoration: none;
-
 }
 
+/*-------------------
+CONTENT
+-------------------*/
+#gallery{
+    background-color: #FFFFFF;
+    margin: 10px;
+}
+
+#about{
+    background-color: #FFFFFF;
+    margin: 10px;;
+}
+
+section h1, section h2, section h3, section p{
+    color: #000000;
+    padding: 10px;
+}
