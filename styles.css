@@ -39,10 +39,9 @@ blockquote, q {
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';s
+	content: '';
 	content: none;
 }
-
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -89,6 +88,7 @@ h2{
 h3{
     font-size: 1em;
     text-align: center;
+    font-weight: bold;
 }
 p{
     color: #ffffff;
@@ -271,6 +271,11 @@ MEDIA QUERIES
         width: 75%
     }
 
+    h3{
+        font-size: .75em;
+        font-weight: bold;
+    }
+
     #about{
         margin: 0 auto;
         width: 75%;
@@ -306,7 +311,8 @@ MEDIA QUERIES
     }
 
     nav{
-
+        position: relative;
+        left:280px
     }
     
     #about{
@@ -325,9 +331,16 @@ MEDIA QUERIES
     }
 
     #gallery-grid img{
-        width: 300px;
+        width: 290px;
         padding:5px;
     }
 
+    input{
+        width: 600px;
+    }
 
+    h3{
+        font-size: .5em;
+        font-weight: bold;
+    }
 }
